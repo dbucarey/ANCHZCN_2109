@@ -1,0 +1,236 @@
+---
+title: Estatus y Captura Biológicamente Aceptable 2022, Anchoveta Atacama-Coquimbo 
+author: "Grupo Pelágicos DER"
+date: 'CCT-PP Sesión N°5- octubre 2021'
+output:
+   beamer_presentation:
+    theme: Copenhagen
+    colortheme: whale
+    fonttheme: "professionalfonts"
+subtitle: 
+institute: INSTITUTO DE FOMENTO PESQUERO
+---
+
+# Datos de entrada al Modelo de Evaluación
+
+```{=tex}
+\begin{table}
+    \centering
+    \resizebox{8cm}{!} {
+    \begin{tabular}{ll}
+    \hline
+\textbf{Datos de entrada al modelo} & \textbf{CBA INICIAL (sep 2021)}  \\ 
+                                    &                                  \\ \hline
+Estructura temporal                 &  1985-2021                       \\
+                                    &                                  \\ \hline 
+Desembarques                        &\textbf{1985-2020}                \\  
+                                    &\textbf{+ Supuesto de captura 2021}  \\
+                                    &                                  \\
+                                    &                                  \\ \hline 
+CPUE Industrial                     & 1985-2010                        \\
+CPUE Artesanal                      & 1998-2020                        \\
+                                    &                                  \\ \hline 
+Biomasa Crucero hidroacústicos      & 2006-2021                        \\
+Biomasa Cruceros MPH                & 2015-2020                        \\
+                                    &                                  \\ \hline
+Composición de tallas flota         & \textbf{1995-2021 (parcial)}     \\ 
+Composición de tallas Cruceros      & 2006-2021                        \\
+                                    &                                  \\ \hline 
+Pesos medios a la talla             & \textbf{Constante}               \\
+Madurez sexual a la talla           & Constante                        \\
+Mortalidad natural                  & Constante                        \\
+Proyección del reclutamiento        & 1 año calendario                 \\ \hline 
+
+\end{tabular}}
+\end{table}
+```
+
+
+# Supuestos
+
+
+Supuesto Desembarque 2021 
+
+- CBA~inicial2021~ = 71 mil t
+- Supuesto captura 2021 = 77% CBA~inicial2021~ (54,7 mil t, Acta Sesión N°3/2021) +  % Descarte
+- Desembarque a agosto de 2021 = 47 mil t.
+
+
+# Enfoque de Modelación: Modelo con dinámica en edad.
+\small
+Se evaluó con los mismos datos, estructura temporal y configuración que el modelo previo. La diferencia es como se modela el crecimiento. \vspace{-0.2 cm}
+
+- Ambos modelos son similares en términos de diagnóstico (ajustes, residuales, retrospectivo).
+
+- Ambos modelos presentan similares tendencias.
+
+- Ambos modelos son similares en magnitud.
+
+Ventajas 
+\vspace{-0.2 cm}
+
+- Técnicas.
+- Facilita la comprensión.
+- Estandarización en modelo de pelágicos.
+- Presenta menos variación en los reclutamientos.
+
+- Menor incertidumbre entre hitos de asesoría.
+- Consistencia en el estatus (condición) del stock.
+\normalsize
+
+# Enfoque de Modelación 
+
+```{=tex}
+\begin{center}
+\includegraphics[width=1.0\textwidth]{Figurascv06/ComparaReclutas.png}
+\end{center}
+```
+
+# Configuración del Modelo
+
+
+- Se incorpora el descarte (desembarques y CBA)
+- Mayor ponderación del índice de MPDH (cv=0.15)
+
+
+# Ajustes  - anchoveta centro norte
+
+
+\begin{columns}
+ \column{0.5\textwidth}
+      \begin{center}
+         \includegraphics[width=0.9\textwidth]{Figurascv06/ajuste1-1.pdf}
+         \includegraphics[width=0.9\textwidth]{Figurascv06/ajuste3-1.pdf}
+         \includegraphics[width=0.9\textwidth]{Figurascv06/ajuste4-1.pdf}
+      \end{center}
+  \column{0.5\textwidth}
+  \begin{center}
+        \includegraphics[width=0.9\textwidth]{Figurascv06/ajuste2-1.pdf}
+        \includegraphics[width=0.9\textwidth]{Figurascv06/ajuste5-1.pdf}
+  \end{center}
+\end{columns}
+
+
+# Ajuste Composición Flota - anchoveta centro norte
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figurascv06/aj_pf-1.pdf}
+\end{center}
+```
+
+
+# Ajuste Composición Crucero - anchoveta centro norte
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figurascv06/aj_pc-1.pdf}
+\end{center}
+```
+
+# Indicadores poblacionales - anchoveta centro norte
+
+```{=tex}
+\begin{center}
+\includegraphics[width=1\textwidth]{Figurascv06/F18_VarEstsep-1.pdf}
+\end{center}
+```
+
+# Indicadores del Estatus - anchoveta centro norte
+
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Figurascv06/F20_indicadoresStock-1.pdf}
+\end{center}
+```
+
+# Estatus de la anchoveta centro norte 
+
+\begin{columns}
+\column{0.5\textwidth}
+\begin{center}
+\includegraphics[width=1.1\textwidth]{Figurascv06/Fig21-1.pdf}
+\end{center}
+\column{0.5\textwidth}
+\begin{table}
+    \centering
+    \resizebox{4cm}{!} {
+    \begin{tabular}{lc}
+    \hline
+        Estatus             & Sept 2021  \\ \hline
+   $BD_{2021}/BD_{RMS}$     &   1,25    \\
+   $F_{2021}/F_{RMS}$       &   1,14    \\ \hline
+   $BD_{2021}<BD_{RMS}$     &   0,11    \\
+   $F_{2021}>F_{RMS}$       &   0,73    \\ \hline
+   Sobre-explotación        &   0,04    \\
+   Agotamiento/colapso      &   0,00    \\
+   Sobrepesca               &   0,57    \\ \hline
+    \end{tabular}}
+    \end{table}
+\end{columns}
+
+
+
+# Supuesto inicial - Supuestos de reclutamientos
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Figurascv06/F22_EsRecsep-1.pdf}
+\end{center}
+```
+
+
+
+# CBA 2022 - Asesoría septiembre 2021
+
+```{=tex}
+\begin{table}
+    \centering
+  \resizebox{11.5cm}{!} {
+ \begin{tabular}{c|cccc|cccc|}
+\cline{2-9}
+\multicolumn{1}{l|}{} & \multicolumn{4}{c|}{CBA (t)} & \multicolumn{4}{c|}{CBA - 2,01\% descarte (t)} \\ \hline
+\multicolumn{1}{|c|}{Percentil} & 1er Cuartil & Mediana & Media & 3er Cuartil & 1er Cuartil & Mediana & Media & 3er Cuartil \\ \hline
+\multicolumn{1}{|c|}{10\%} & 36.955 & 41.611 & 48.444 & 54.906 & 36.212 & 40.775 & 47.470 & 53.803 \\
+\multicolumn{1}{|c|}{20\%} & 38.750 & 43.594 & 50.707 & 57.438 & 37.971 & 42.718 & 49.688 & 56.283 \\
+\multicolumn{1}{|c|}{30\%} & 40.044 & 45.024 & 52.339 & 59.263 & 39.240 & 44.119 & 51.287 & 58.072 \\
+\multicolumn{1}{|c|}{40\%} & 41.150 & 46.245 & 53.733 & 60.823 & 40.323 & 45.316 & 52.653 & 59.601 \\
+\multicolumn{1}{|c|}{50\%} & 42.184 & 47.387 & 55.036 & 62.281 & 41.336 & 46.435 & 53.930 & 61.029 \\ \hline
+\end{tabular}}
+    \end{table}
+```
+\vspace{0.5 cm}
+\footnotesize
+
+- CBA 2021 Hito 1 (sep 2020): Escenario de reclutamiento medio y 20% Riesgo igual a 70,9 mil t. Bajo este escenario la cuota se reduce en un 30% (Modelo en tallas)
+
+- CBA 2021 Hito 2 (abr 2021): Se establece \textit{Statu quo}, media = 51,3 mil t (Modelo en tallas), reducción de 3% para el mismo escenario y percentil del 20%. 
+
+
+# CBAs por hito de revisión de anchoveta
+
+```{=tex}
+\begin{table}[h]
+    \centering
+    \resizebox{8cm}{!} {
+    \begin{tabular}{cccc}
+    \hline
+AÑO  & CBA inicial  & Revisión CBA       & Desembarques  \\ 
+     & (t)          & (t)                & (t)           \\ \hline
+2014 & 52.700       & \textit{statu quo} & 32.946 \\
+2015 & 30.000       & \textit{statu quo} & 20.086 \\
+2016 & 25.650       & 34.600             & 20.811 \\
+2017 & 50.700       & \textit{statu quo} & 16.565 \\
+2018 & 40.000       & 45.144             & 38.841 \\
+2019 & 40.520       & 75.982             & 60.528 \\
+2020 & 91.927       & \textit{statu quo} & 59.824 \\ 
+2021 & 70.987       & \textit{statu quo} & 47.091 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+\footnotesize
+-  Recomedación 2017 = reducción del 12%
+-  Recomendación 2020 = reducción del 32%  
+-  Recomendación 2021 = reducción del 28%
