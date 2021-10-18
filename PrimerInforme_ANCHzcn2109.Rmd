@@ -299,6 +299,7 @@ Dada la incertidumbre asociada a los niveles de reclutamiento, la variabilidad a
 \vspace{0.5cm}
 
 
+
 +------+-----------------+------------------+----------------------------+-----------------------+-----------------------------------------+
 | Año  | CBA (t) Inicial | CBA (t) Revisión | CBA (t) Revisión adicional | Desembarque total (t) | Diferencia entre el desembarque y Cuota |
 +:====:+:===============:+:================:+:==========================:+:=====================:+:=======================================:+
