@@ -30,6 +30,7 @@ source(paste(dir.fun,'functions.R',sep=''))
 #source(paste(dir.fun,'',sep=''))
 ```
 
+
 ```{r PRIMER PASO CORRE MODELO MAET base, eval=FALSE, echo=FALSE, warning=FALSE}
 setwd(dir.1)
 #Asesoría septiembre 2021
